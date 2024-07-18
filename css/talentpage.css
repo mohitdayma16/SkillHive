@@ -1,0 +1,102 @@
+@import url(./root.css);
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+html,
+body {
+  font-size: 100%;
+}
+h1{
+  margin-left: 100px;
+}
+.header {
+  font-size: 90%;
+}
+.btn_primary{
+  font-size: 90%;
+}
+.btn_secondary{
+  font-size: 90%;
+}
+/* First Container Styles */
+.first-container {
+  background-color: grey; /* Light gray background */
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Second Container Styles */
+.second-container {
+  background-color: #fff; /* White background */
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Third Container Styles */
+.third-container {
+  background-color: grey; /* Light gray background */
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.fourth-container {
+  background-color: #fff; /* Light gray background */
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.row{
+  display: flex;
+}
+.col-md-6{
+  padding: 20px;
+}
+.col-md-6 img{
+  align-items: 20px;
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+  margin-right: -100px;
+}
+.col-md-6 p{
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.btn_third {
+  margin-left: 100px;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white);
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn_third:hover {
+  background-color: var(--primary-dark);
+}
+
+.btn_third_outline {
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  /* border: none; */
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 1rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn_third_outline:hover {
+  background-color: var(--primary-light);
+}
+
